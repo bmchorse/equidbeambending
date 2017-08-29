@@ -1,0 +1,29 @@
+#NEXUS
+
+begin TREES;
+
+	TRANSLATE
+		1 Archeohippus_blackbergi,
+		2 Equus_burchelli,
+		3 Equus_caballus,
+		4 Equus_grevyi,
+		5 Equus_sp.,
+		6 Hippidion_principale,
+		7 Arenahippus_grangeri,
+		8 Hyracotherium_sp.,
+		9 Merychippus_republicanus,
+		10 Merychippus_primus,
+		11 Acritohippus_isonesus,
+		12 Mesohippus_bairdii,
+		13 Mesohippus_sp.,
+		14 Mesohippus_westoni,
+		15 Nannippus_minor,
+		16 Orohippus_pumilis,
+		17 Parahippus_leonensis,
+		18 Pliohippus_pernix;
+
+
+	TREE 'branches scaled+new++' = ((((((((((((2:2.0,4:2.0):2.0,3:4.0):1.0,5:4.0):4.0,6:8.0):6.0,18:8.0):2.0,((15:5.0,9:4.0):3.0,11:3.0):1.0):1.0,10:2.0):5.0,17:5.0):1.0,1:6.0):16.0,((14:3.0,12:3.0):4.0,13:7.0):3.0):13.0,16:9.0):3.0,(8:6.0,7:1.0):1.0):1.0;
+end;
+
+

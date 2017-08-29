@@ -1,0 +1,39 @@
+#NEXUS
+[R-package PHYTOOLS, Mon Feb 06 15:46:32 2017]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 13;
+	TAXLABELS
+		Anchitherium
+		Archaeohippus
+		Cormohipparion
+		Equus
+		Hyracotherium
+		Mesohippus
+		Miohippus
+		Neohipparion
+		Parahippus
+		Pliohippus
+		Protohippus
+		Pseudhipparion
+		Tapirus
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Anchitherium,
+		2	Archaeohippus,
+		3	Cormohipparion,
+		4	Equus,
+		5	Hyracotherium,
+		6	Mesohippus,
+		7	Miohippus,
+		8	Neohipparion,
+		9	Parahippus,
+		10	Pliohippus,
+		11	Protohippus,
+		12	Pseudhipparion,
+		13	Tapirus
+	;
+	TREE * UNTITLED = [&R] (13:65,(5:7,(7:10,(6:10,(1:16.4,(2:14.2,(9:7.83,((10:4.3,4:19.3):10.83,(11:8.67,((12:7.67,8:7.67):2,3:6.37)Hipparionini:1):6.46):2):8.57):1):4)NA:2)NA:14)NA:3)NA;
+END;

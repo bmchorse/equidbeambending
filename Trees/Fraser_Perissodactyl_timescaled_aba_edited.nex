@@ -1,0 +1,289 @@
+#NEXUS
+[written Fri Aug 22 14:49:03 EDT 2014 by Mesquite  version 2.75 (build 564) at dANI-PC/192.168.1.100]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=125;
+	TAXLABELS
+		Anchitherium_clarencei Kalobatippus_sp. Hypohippus_affinis Hypohippus_equinus Hypohippus_osborni Hypohippus_pertinax Megahippus_matthewi Megahippus_mckennai Archaeohippus_minimus Archaeohippus_mourningi Archaeohippus_ultimus Desmatippus_avus Desmatippus_crenidens Desmatippus_integer Desmatippus_coloradensis Parahippus_cognatus Merychippus_brevidontus Merychippus_calamarius Merychippus_californicus Merychippus_gunteri Merychippus_insignis Merychippus_primus Merychippus_relictus Merychippus_sphenodus Scaphohippus_intermontanus Scaphohippus_sumani Onohippidium_galushai Hippidion_sp. Equus_francisci Equus_scotti Equus_simplicidens Equus_alaskae Dinohippus_subvenus Dinohippus_interpolatus Dinohippus_leidyanus Dinohippus_spectans Dinohippus_leardi Astrohippus_ansae Astrohippus_stocki Pliohippus_tehonensis Pliohippus_mirabilis Pliohippus_pernix Pliohippus_nobilis Pliohippus_tantalus Pliohippus_supremus Pliohippus_fossulatus Parapliohippus_carrizoensis Acritohippus_isonesus Acritohippus_quinni Acritohippus_stylodontus Merychippus_sejunctus Calippus_proplacidus Calippus_martini Calippus_placidus Calippus_regulus Calippus_elachistus Calippus_hondurensis Calippus_circulus Calippus_labrosus Calippus_cerasinus Calippus_maccartyi Protohippus_perditus Protohippus_vetus Protohippus_supremus Protohippus_gidleyi Protohippus_eohipparion Protohippus_proparvulus Hipparion_tehonense Hipparion_sanfondensis Hipparion_shirleyae Hipparion_forcei Cormohipparion_goorisi Cormohipparion_johnsoni Cormohipparion_merriami Cormohipparion_plicatile Cormohipparion_paniense Cormohipparion_quinni Cormohipparion_emsliei Cormohipparion_fricki Nannippus_aztecus Nannippus_peninsulatus Nannippus_beckensis Nannippus_ingenuus Nannippus_lenticularis Nannippus_westoni Nannippus_morgani Hippotherium_emsliei Merychippus_coloradense Merychippus_republicanus Pseudhipparion_curtivallum Pseudhipparion_retrusum Pseudhipparion_simpsoni Pseudhipparion_skinneri Pseudhipparion_hessei Neohipparion_affine Neohipparion_eurystyle Neohipparion_leptode Neohipparion_trampasense Neohipparion_gidleyi Moropus_merriami Aphelops_megalodus Aphelops_malacorhinus Aphelops_mutilus Peraceras_hessei Peraceras_profectum Peraceras_superciliosum Teleoceras_brachyrhinum Teleoceras_medicornutum Teleoceras_meridianum Teleoceras_fossiger Teleoceras_major Teleoceras_proterum Teleoceras_guymonense Teleoceras_hicksi Miotapirus_sp. Tapiravus_sp. Tapirus_haysii Tapirus_lundeliusi Tapirus_veroensis Tapirus_californicus Tapirus_merriami Tapirus_johnsoni Tapirus_webbi Tapirus_polkensis Tapirus_simpsoni 
+	;
+
+END;
+
+
+BEGIN TREES;
+	Title 'Trees from "Perissodactyl_timescaled_aba_edited.nex"';
+	LINK Taxa = Taxa;
+	TRANSLATE
+		1 Anchitherium_clarencei,
+		2 Kalobatippus_sp.,
+		3 Hypohippus_affinis,
+		4 Hypohippus_equinus,
+		5 Hypohippus_osborni,
+		6 Hypohippus_pertinax,
+		7 Megahippus_matthewi,
+		8 Megahippus_mckennai,
+		9 Archaeohippus_minimus,
+		10 Archaeohippus_mourningi,
+		11 Archaeohippus_ultimus,
+		12 Desmatippus_avus,
+		13 Desmatippus_crenidens,
+		14 Desmatippus_integer,
+		15 Desmatippus_coloradensis,
+		16 Parahippus_cognatus,
+		17 Merychippus_brevidontus,
+		18 Merychippus_calamarius,
+		19 Merychippus_californicus,
+		20 Merychippus_gunteri,
+		21 Merychippus_insignis,
+		22 Merychippus_primus,
+		23 Merychippus_relictus,
+		24 Merychippus_sphenodus,
+		25 Scaphohippus_intermontanus,
+		26 Scaphohippus_sumani,
+		27 Onohippidium_galushai,
+		28 Hippidion_sp.,
+		29 Equus_francisci,
+		30 Equus_scotti,
+		31 Equus_simplicidens,
+		32 Equus_alaskae,
+		33 Dinohippus_subvenus,
+		34 Dinohippus_interpolatus,
+		35 Dinohippus_leidyanus,
+		36 Dinohippus_spectans,
+		37 Dinohippus_leardi,
+		38 Astrohippus_ansae,
+		39 Astrohippus_stocki,
+		40 Pliohippus_tehonensis,
+		41 Pliohippus_mirabilis,
+		42 Pliohippus_pernix,
+		43 Pliohippus_nobilis,
+		44 Pliohippus_tantalus,
+		45 Pliohippus_supremus,
+		46 Pliohippus_fossulatus,
+		47 Parapliohippus_carrizoensis,
+		48 Acritohippus_isonesus,
+		49 Acritohippus_quinni,
+		50 Acritohippus_stylodontus,
+		51 Merychippus_sejunctus,
+		52 Calippus_proplacidus,
+		53 Calippus_martini,
+		54 Calippus_placidus,
+		55 Calippus_regulus,
+		56 Calippus_elachistus,
+		57 Calippus_hondurensis,
+		58 Calippus_circulus,
+		59 Calippus_labrosus,
+		60 Calippus_cerasinus,
+		61 Calippus_maccartyi,
+		62 Protohippus_perditus,
+		63 Protohippus_vetus,
+		64 Protohippus_supremus,
+		65 Protohippus_gidleyi,
+		66 Protohippus_eohipparion,
+		67 Protohippus_proparvulus,
+		68 Hipparion_tehonense,
+		69 Hipparion_sanfondensis,
+		70 Hipparion_shirleyae,
+		71 Hipparion_forcei,
+		72 Cormohipparion_goorisi,
+		73 Cormohipparion_johnsoni,
+		74 Cormohipparion_merriami,
+		75 Cormohipparion_plicatile,
+		76 Cormohipparion_paniense,
+		77 Cormohipparion_quinni,
+		78 Cormohipparion_emsliei,
+		79 Cormohipparion_fricki,
+		80 Nannippus_aztecus,
+		81 Nannippus_peninsulatus,
+		82 Nannippus_beckensis,
+		83 Nannippus_ingenuus,
+		84 Nannippus_lenticularis,
+		85 Nannippus_westoni,
+		86 Nannippus_morgani,
+		87 Hippotherium_emsliei,
+		88 Merychippus_coloradense,
+		89 Merychippus_republicanus,
+		90 Pseudhipparion_curtivallum,
+		91 Pseudhipparion_retrusum,
+		92 Pseudhipparion_simpsoni,
+		93 Pseudhipparion_skinneri,
+		94 Pseudhipparion_hessei,
+		95 Neohipparion_affine,
+		96 Neohipparion_eurystyle,
+		97 Neohipparion_leptode,
+		98 Neohipparion_trampasense,
+		99 Neohipparion_gidleyi,
+		100 Moropus_merriami,
+		101 Aphelops_megalodus,
+		102 Aphelops_malacorhinus,
+		103 Aphelops_mutilus,
+		104 Peraceras_hessei,
+		105 Peraceras_profectum,
+		106 Peraceras_superciliosum,
+		107 Teleoceras_brachyrhinum,
+		108 Teleoceras_medicornutum,
+		109 Teleoceras_meridianum,
+		110 Teleoceras_fossiger,
+		111 Teleoceras_major,
+		112 Teleoceras_proterum,
+		113 Teleoceras_guymonense,
+		114 Teleoceras_hicksi,
+		115 Miotapirus_sp.,
+		116 Tapiravus_sp.,
+		117 Tapirus_haysii,
+		118 Tapirus_lundeliusi,
+		119 Tapirus_veroensis,
+		120 Tapirus_californicus,
+		121 Tapirus_merriami,
+		122 Tapirus_johnsoni,
+		123 Tapirus_webbi,
+		124 Tapirus_polkensis,
+		125 Tapirus_simpsoni;
+	TREE UNTITLED = ((((1:12.2,2:5.37):1.0,((3:11.13,4:5.46,5:11.13,6:7.83):1.0,(7:6.67,8:3.37):5.46):5.37):3.2,((9:6.63,10:7.83,11:7.83):7.57,((12:14.4,13:13.2,14:14.4,15:15.5):1.0,(16:7.83,((17:7.83,18:11.13,19:7.83,20:7.83,21:7.83,22:7.83,23:7.83,24:7.83):1.0,(25:7.83,26:7.83):1.0,(((((((((27:6.4,28:11.0):4.3,((29:5.6,30:5.6,31:5.6,32:5.888):9.7,(33:4.3,34:9.7,35:9.7,36:9.7):1.0):1.0):1.0,37:9.7):1.0,(38:6.4,39:6.4):4.3):1.0,40:4.3):3.37,(41:3.37,42:6.67,43:12.07,44:6.67,45:4.47,46:6.67):1.0):5.46,47:7.83):1.0,(48:7.83,49:7.83,50:7.83):1.0)Equini:1.0,(51:7.83,(((52:3.37,53:6.67,54:6.67,55:6.67,56:12.07,57:12.07,58:3.37,59:2.97,60:6.67,61:12.07):1.0,(62:6.67,63:3.37,64:6.67,65:12.07,66:2.57,67:2.57):1.0)Protohippini:1.0,(((68:12.0,69:4.4,70:4.4,71:6.6):1.07,((72:3.37,73:4.77,74:4.77,75:12.27,76:2.97,77:5.47,78:12.27,79:5.47):1.0,(80:12.8,81:12.8,82:12.8,83:9.7,84:9.7,85:9.7,86:9.7):3.37):1.0):1.0,87:15.17,(88:3.37,89:3.37,((90:6.67,91:6.67,92:12.07,93:12.07,94:6.67):1.0,(95:4.3,96:9.7,97:9.7,98:9.7,99:9.7):3.37):1.0):1.0)Hipparionini:1.0):5.46):1.0):1.0)Equinae:1.0):7.57):1.0):1.0):1.0,(100:7.83,(((101:11.13,102:16.53,103:16.53):1.0,(104:7.83,105:7.83,106:11.13):1.0,(107:8.93,108:7.83,109:7.83,110:16.53,111:16.53,112:16.53,113:16.23,114:16.53):1.0):1.0,(115:7.83,116:8.93,(117:16.67,118:15.17,119:16.67,120:16.67,121:16.67,122:6.67,123:9.47,124:12.07,125:12.07):5.46):1.0):1.0):7.57);
+
+END;
+
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1408733343101;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 5313282955085991433;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState false false 59;
+			setPopoutState 400;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 1280 946;
+			setLocation 1358 -8;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord;
+		tell It;
+			makeTreeWindow #5313282955085991433  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				suppressEPCResponse;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTreeBlock 1;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 831.1408733236850.4502592248436092249;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1221 879;
+					setLocation 1358 -8;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+					setActive;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.SquareTree.SquareTree;
+					tell It;
+						setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							branchLengthsToggle off;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter on;
+							toggleEven on;
+						endTell;
+						setEdgeWidth 6;
+						orientUp;
+						setCornerMode Right_Angle  50;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setColor Black;
+						toggleColorPartition on;
+						toggleShadePartition off;
+						toggleShowFootnotes on;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+						namesAngle ?;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					setDrawingSizeMode 0;
+					toggleLegendFloat on;
+					scale 0;
+					toggleTextOnTree off;
+					showWindow;
+				endTell;
+				desuppressEPCResponse;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles;
+				tell It;
+					setOn on;
+					setDigits 4;
+					writeAsPercentage off;
+					toggleCentred on;
+					toggleHorizontal on;
+					toggleWhiteEdges on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings;
+				tell It;
+					setOn on;
+					toggleCentred on;
+					toggleHorizontal on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+
